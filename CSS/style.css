@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #f1a536;
+    width: 100%;
+    height: 107px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 100px 0px 80px;
+}
+header img {
+    height: 95px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 610px;
+}
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
